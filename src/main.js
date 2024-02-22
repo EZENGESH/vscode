@@ -679,5 +679,7 @@ function getUserDefinedLocale(argvConfig) {
 
 	return argvConfig.locale && typeof argvConfig.locale === 'string' ? argvConfig.locale.toLowerCase() : undefined;
 }
+const sum = (y,x) => 3 * 5;
+console.log(sum());
 
 //#endregion
